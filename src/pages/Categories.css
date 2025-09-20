@@ -1,0 +1,147 @@
+.page-container {
+  padding: 2rem 4%;
+  min-height: 100vh;
+  background-color: #f8f9fa;
+  color: #222;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  align-items: flex-start;
+  gap: 30px;
+  margin-top: 80px;
+}
+
+.filters-sidebar {
+  flex: 0 0 240px;
+  background: white;
+  padding: 20px;
+  border-right: 1px solid #ddd;
+  box-shadow: 2px 0 6px rgba(0,0,0,0.05);
+  border-radius: 10px;
+  height: fit-content;
+  position: sticky;
+  top: 80px;
+  z-index: 1;
+}
+
+.filters-sidebar h3 {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #646464;
+  margin-bottom: 16px;
+}
+
+.filters-sidebar label {
+  display: block;
+  margin-bottom: 16px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #333;
+}
+
+.filters-sidebar input {
+  width: 100%;
+  margin-top: 6px;
+  padding: 8px 10px;
+  border: 1.5px solid #ccc;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  transition: border-color 0.3s ease;
+}
+
+.filters-sidebar input:focus {
+  border-color: #9da1a5;
+  outline: none;
+}
+
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 30px;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.no-products {
+  font-size: 1.3rem;
+  color: #666;
+  font-weight: 600;
+  text-align: center;
+  padding: 40px 0;
+}
+
+
+@media (max-width: 1350px) {
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 25px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .content {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .filters-sidebar {
+    position: relative;
+    width: 100%;
+    box-shadow: none;
+    border: 1px solid #ddd;
+    top: 0;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page-container {
+    padding: 1.5rem;
+  }
+
+  .products-grid {
+    grid-template-columns: repeat(auto-fill, minmax(170px, 1fr));
+    gap: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .page-container {
+    padding: 1rem;
+  }
+
+  .filters-sidebar h3 {
+    font-size: 1rem;
+  }
+
+  .filters-sidebar label {
+    font-size: 0.85rem;
+  }
+
+  .products-grid {
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+
+  .products-grid > * {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+}
