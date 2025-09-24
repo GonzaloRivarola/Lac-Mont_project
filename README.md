@@ -34,11 +34,6 @@ The website features multiple collections, including **Zermatt, S-Watches, Diamo
 
 ---
 
-## Screenshots
-*(Add screenshots of homepage, product page, cart page, and mobile view here.)*
-
----
-
 ## Future Improvements
 - Integration with a real payment gateway (Stripe/PayPal)
 - Dark mode toggle for user preference
