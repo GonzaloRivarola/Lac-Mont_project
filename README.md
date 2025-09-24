@@ -39,6 +39,19 @@ The website features multiple collections, including **Zermatt, S-Watches, Diamo
 
 ---
 
+## Future Improvements
+- Integration with a real payment gateway (Stripe/PayPal)
+- Dark mode toggle for user preference
+- Lazy loading for images to optimize performance
+
+---
+
+## Contact
+- GitHub: [GonzaloRivarola](https://github.com/gonzalorivarola)
+- https://gonzalorivarola.com/
+
+---
+
 ## Installation
 ```bash
 # 1. Clone the repository
@@ -55,17 +68,6 @@ npm start
 
 Open http://localhost:3000 in your browser.
 
-```bash
 
 ---
 
-## Future Improvements
-- Integration with a real payment gateway (Stripe/PayPal)
-- Dark mode toggle for user preference
-- Lazy loading for images to optimize performance
-
----
-
-## Contact
-- GitHub: [GonzaloRivarola](https://github.com/gonzalorivarola)
-- https://gonzalorivarola.com/
