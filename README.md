@@ -30,7 +30,7 @@ The website features multiple collections, including **Zermatt, S-Watches, Diamo
 | CSS        | Styling and responsive layout |
 | Firebase   | Firestore database for product data |
 | Context API | Global state management (Cart) |
-| Vercel/Netlify | Deployment |
+| Firebase | Deployment |
 
 ---
 
