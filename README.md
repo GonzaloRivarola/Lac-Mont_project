@@ -55,12 +55,7 @@ npm start
 
 Open http://localhost:3000 in your browser.
 
-
----
-
-
-## Deployment
-This project can be deployed using **Vercel**, **Netlify**, or **GitHub Pages**. Connect your repository and follow the deployment instructions of your chosen platform.
+```bash
 
 ---
 
@@ -71,10 +66,6 @@ This project can be deployed using **Vercel**, **Netlify**, or **GitHub Pages**.
 
 ---
 
-## Live Demo
-*(Add your live demo URL here)*
-
----
-
 ## Contact
 - GitHub: [GonzaloRivarola](https://github.com/gonzalorivarola)
+- https://gonzalorivarola.com/
